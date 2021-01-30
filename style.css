@@ -12,6 +12,7 @@ body{
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+    position: relative;
 }
 nav{
     height: 50px;
@@ -118,7 +119,49 @@ nav ul li a:hover, a.active{
     font-weight: 500;
     background-color:  #52AF3A;
 }
+.counter-button{
+    background-color: #52AF3A;
+    display: inline-block;
+    font-size: 20px;
+    width: 25px;
+    margin-left: 10px;
+    color: white;
+    border: 0px;
+    border-radius: 13px;
+}
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+
+#message-box{
+    height: 400px;
+    width: 700px;
+    background-color:white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -350px;
+    box-shadow: 10px 10px 20px rgb(104, 103, 103);
+    border-radius: 15px;
+    display: none;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5rem;
+    text-align: center;
+    padding-top: 15vh;
+    color: #52AF3A;
+}
+#close-button{
+    display: block;
+    height: 50px;
+    width: 100px;
+    background: tomato;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 15px auto 0 auto;
 }
